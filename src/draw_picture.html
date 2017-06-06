@@ -1,0 +1,49 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+<title>Digital Northern Picture Generator</title>
+</head><body>
+
+<form action="/cgi-bin/unipaper/drawPicture.pl" method="post">
+
+<h3>Digital Northern Picture Generator - Beta Version (v0.7)</h3>
+
+This tool generates a Digital Northern picture. Please input the requested data exactly as described below.
+
+<br><br>
+
+Select the color for the picture:
+	<input name="color" value="R" type="radio">Red
+        <input name="color" value="G" type="radio">Green
+        <input name="color" value="B" type="radio">Blue
+        <input name="color" value="W" type="radio">Whatever
+
+<br><br>
+
+Input the relative abundance and the text for the picture, one gene per line.<br>
+Here there are some input data samples:
+<a href="http://powerswingle.centrodecitricultura.br/unipaper/drawPicture/example1.txt">Example 1</a>;
+<a href="http://powerswingle.centrodecitricultura.br/unipaper/drawPicture/example2.txt">Example 2</a>;
+<a href="http://powerswingle.centrodecitricultura.br/unipaper/drawPicture/example3.txt">Example 3</a>;
+<a href="http://powerswingle.centrodecitricultura.br/unipaper/drawPicture/example4.txt">Example 4</a>.
+<br><br>
+
+<textarea cols="100" rows="10" name="libsMatrix"></textarea>
+
+<br><br>
+
+<center><input value="Create picture" type="submit"></center>
+
+</form>
+
+OBS: Do not use brackets "[" and "]" within the product text. Make sure that you input the<br>
+correct relative abundance values, and also placed the brackets between the text.
+
+<br><br>
+
+<hr>
+
+Last update: Mar/30/2007, by M.S.Reis.
+
+</body></html>
