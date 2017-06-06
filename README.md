@@ -1,7 +1,7 @@
 # Digital-Northern-tool
 A Digital Northern tool for agglomerative hierarchical clustering of gene expression data.
 
-If you use this program, please cite:
+If you use this program in your work, please cite:
 
 Marcelo S. Reis, Marco A. Takita, Darío A. Palmieri, and Marcos A. Machado.
 
